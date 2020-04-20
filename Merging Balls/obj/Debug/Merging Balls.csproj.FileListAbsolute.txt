@@ -1,0 +1,20 @@
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\bin\Debug\Merging Balls.exe.config
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\bin\Debug\Merging Balls.exe
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\bin\Debug\Merging Balls.pdb
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging Balls.csprojAssemblyReference.cache
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging_Balls.Form1.resources
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging_Balls.Properties.Resources.resources
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging Balls.csproj.GenerateResource.cache
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging Balls.csproj.CoreCompileInputs.cache
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging Balls.exe
+C:\Users\Анна\source\repos\Merging Balls\Merging Balls\obj\Debug\Merging Balls.pdb
+D:\Coding\Merging_balls\Merging Balls\bin\Debug\Merging Balls.exe.config
+D:\Coding\Merging_balls\Merging Balls\bin\Debug\Merging Balls.exe
+D:\Coding\Merging_balls\Merging Balls\bin\Debug\Merging Balls.pdb
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging Balls.csprojAssemblyReference.cache
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging_Balls.Form1.resources
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging_Balls.Properties.Resources.resources
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging Balls.csproj.GenerateResource.cache
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging Balls.csproj.CoreCompileInputs.cache
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging Balls.exe
+D:\Coding\Merging_balls\Merging Balls\obj\Debug\Merging Balls.pdb
