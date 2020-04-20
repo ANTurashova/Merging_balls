@@ -14,7 +14,6 @@ namespace Merging_Balls
         public int Y { get; private set; }
         private int width, height;
         public Color RingColor { get; private set; }
-
         private Brush brush;
 
         private int maxRadius
@@ -28,13 +27,12 @@ namespace Merging_Balls
         {
             width = r.Width;
             height = r.Height;
-            X = width / 2;
-            Y = height / 2;
+            X = width/2; //центр колец
+            Y = height/10*9; //центр колец
             RingColor = c;
             Radius = 0;
             brush = new SolidBrush(RingColor);
         }
-
 
         public override void Update(Rectangle rectangle)
         {
@@ -49,7 +47,7 @@ namespace Merging_Balls
 
         protected override void Move()
         {
-            while (!_stop && Radius < maxRadius)
+            while (!stop && Radius < maxRadius)
             {
                 X -= 1;
                 Y -= 1;

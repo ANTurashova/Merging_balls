@@ -23,9 +23,9 @@ namespace Merging_Balls
         public Form1()
         {
             InitializeComponent();
-            g = panel1.CreateGraphics(); //Объект Graphics извлекается с помощью метода CreateGraphics
-            rect = panel1.ClientRectangle;  //прямоугольник, представляющий клиентскую область элемента управления
-            animator = new Animator(g, rect); //Graphics g, Rectangle r
+            g = panel1.CreateGraphics(); 
+            rect = panel1.ClientRectangle;  
+            animator = new Animator(g, rect); 
             radius = 20;
         }
 
@@ -33,13 +33,13 @@ namespace Merging_Balls
         {
             if (flag)
             {
-                Point consumerPos = new Point(panel1.Width / 2 - radius, panel1.Height / 2 - radius);
+                Point consumerPos = new Point(panel1.Width / 2 - radius, panel1.Height / 10 * 9 - radius);
                 commonData = new BallCommonData(3, animator, consumerPos);
                 ballConsumer = new BallConsumer(commonData, rect, consumerPos.X, consumerPos.Y, radius, animator);
                 ballProducers = new BallProducer[3];
-                ballProducers[0] = new BallProducer(commonData, 0, panel1.Width / 2 - radius, 0, radius, rect, animator, consumerPos, Color.Red); //старт красного //МЕСТОПОЛОЖЕНИЯ!
-                ballProducers[1] = new BallProducer(commonData, 1, 0, 0, radius, rect, animator, consumerPos, Color.Green);  //старт зеленого
-                ballProducers[2] = new BallProducer(commonData, 2, panel1.Width - 2 * radius, 0, radius, rect, animator, consumerPos, Color.Blue); //старт синего
+                ballProducers[0] = new BallProducer(commonData, 0, panel1.Width / 2 - radius, 0, radius, rect, animator, consumerPos, Color.Red); 
+                ballProducers[1] = new BallProducer(commonData, 1, 0, 0, radius, rect, animator, consumerPos, Color.Green);  
+                ballProducers[2] = new BallProducer(commonData, 2, panel1.Width - 2 * radius, 0, radius, rect, animator, consumerPos, Color.Blue); 
                 animator.Start(ballConsumer);
                 animator.Start(ballProducers[0]);
                 animator.Start(ballProducers[1]);
